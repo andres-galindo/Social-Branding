@@ -28,19 +28,20 @@ body{
 
 .nav-menu{
    width: 100%;
-   height: auto;
+   height: 50px;
    display: flex;
    justify-content: start;
    align-items: center;
-   background: orange;
+   background: transparent;
    padding: 10px;
    position: fixed;
    z-index: 10;
-   padding-top: 35px;
+   padding-top: 20px;
 }
 
 svg{
     position: fixed;
+    z-index: 5;
 }
 .nav-menu img{
     width: 60px;
