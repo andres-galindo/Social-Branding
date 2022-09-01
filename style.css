@@ -144,7 +144,5 @@ svg{
 }
 
 @media (max-width:450px){
-    #view2{
-        height: auto;
-    }
+    
 }
