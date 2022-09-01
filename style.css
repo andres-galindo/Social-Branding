@@ -142,3 +142,9 @@ svg{
     margin: 0;
     font-size: 30px;
 }
+
+@media (max-width:400px){
+    #view2{
+        height: auto;
+    }
+}
