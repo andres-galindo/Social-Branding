@@ -43,8 +43,25 @@ svg{
     position: fixed;
     z-index: 5;
 }
+#menu{
+    display: none;
+    width: 30px;
+}
 .nav-menu img{
     width: 60px;
+}
+.inactive{
+    display: none;
+}
+
+.menu-mobile{
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+    padding: 10px 0 10px 0;
 }
 
 .nav-menu ul{
@@ -157,5 +174,47 @@ svg{
     }
     .nav-menu{
         background: orange;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        width: 100%;
+    }
+    #menu{
+        display: block;
+    }
+    .nav-menu img{
+        width: 40px;
+        margin-right: 20px;
+    }
+    .menu-mobile{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 70px;
+        left: 0;
+        padding: 0;
+    }
+    .nav-menu ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+        margin: 0;
+    }
+    .inactive{
+        display: none;
+    }
+    .nav-menu ul li{
+        margin-bottom: 20px;
     }
 }
+
