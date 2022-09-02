@@ -6,7 +6,6 @@ body{
 #view1{
     width: 100%;
     height: 100vh;
-    background-image: url("https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -93,10 +92,12 @@ svg{
 }
 
 #view1 .redes{
-    width: 100%;
+    width: 58%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    
 
 }
 .redes img{
@@ -170,7 +171,7 @@ svg{
         display: none;
     }
     #view1 h1{
-        font-size: 30px;
+        font-size: 50px;
     }
     .nav-menu{
         background: orange;
@@ -186,6 +187,10 @@ svg{
         width: 40px;
         margin-right: 30px;
     }
+    .fondo .redes{
+        width: 50%;
+    }
+
     .menu-mobile{
         width: 100vw;
         height: 100vh;
