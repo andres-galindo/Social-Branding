@@ -5,11 +5,9 @@ const imagenes = document.querySelectorAll(".galery");
 const img = document.querySelector(".modal--img");
 const btnCerrar = document.querySelector(".cerrar")
 
-menu.addEventListener("click", a);
-
-function a(){
+menu.addEventListener("click", function(){
     menuMobile.classList.toggle("inactive");
-}
+});
 
 for (i = 0; i < imagenes.length; i++){
     imagenes[i].addEventListener("click", function(e){
@@ -21,7 +19,8 @@ for (i = 0; i < imagenes.length; i++){
 
 btnCerrar.addEventListener("click", function(){
     modal.classList.toggle("activo");
-})
+});
+
 
 
 
